@@ -5,4 +5,4 @@ COPY package.json yarn.lock /app/
 RUN yarn install --production
 COPY . /app
 EXPOSE 3000
-CMD [ "yarn" "start:js" ]
+CMD [ "yarn", "start:js" ]

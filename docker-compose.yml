@@ -1,6 +1,7 @@
 version: '3'
 services:
   web_flag:
-      build: .
-      ports:
-        - "3000:3000"
+    image: country-flags
+    build: .
+    ports:
+      - "3000:3000"
